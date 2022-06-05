@@ -1,0 +1,18 @@
+nav {
+  background-color: var(--nav-bg);
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 375px;
+  height: 88px;
+}
+.nav-button {
+  padding: 8px;
+  gap: 10px;
+  width: 40px;
+  height: 40px;
+}
