@@ -1,5 +1,11 @@
 .slider {
+  padding: 30px;
   display: flex;
+  gap: 12px;
+}
+
+.slider__box {
+  position: relative;
 }
 
 .slider__img {
@@ -16,6 +22,6 @@
   border-radius: 50%;
   border: 3px solid rgb(247, 131, 232);
   left: 30px;
-  top: px;
+  top: 90px;
   position: absolute;
 }
