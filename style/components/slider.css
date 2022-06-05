@@ -1,0 +1,21 @@
+.slider {
+  display: flex;
+}
+
+.slider__img {
+  object-fit: cover;
+  width: 100px;
+  height: 140px;
+  border-radius: 16px;
+}
+
+.slider__img--profile {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid rgb(247, 131, 232);
+  left: 30px;
+  top: px;
+  position: absolute;
+}
