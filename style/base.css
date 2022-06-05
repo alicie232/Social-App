@@ -1,4 +1,7 @@
-/* Test für die Struktur*/
-h1 {
-  color: red;
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --nav-bg: #000000;
 }
