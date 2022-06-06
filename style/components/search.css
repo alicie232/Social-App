@@ -1,7 +1,7 @@
 .search {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   background-color: #323436;
   border-radius: 32px;
 }
@@ -21,7 +21,6 @@
 .search__icon {
   height: 20px;
   width: 20px;
-  color: #ecebed;
   cursor: pointer;
   margin: 10px;
 }
