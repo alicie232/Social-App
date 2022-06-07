@@ -1,18 +1,26 @@
 nav {
   background-color: var(--nav-bg);
+  box-shadow: inset 0px 1px 0px #323436;
   display: flex;
   justify-content: space-around;
-  gap: 10px;
   align-items: center;
+  gap: 10px;
   position: absolute;
-  bottom: 0;
-  left: 0;
   width: 375px;
   height: 88px;
+  bottom: 0;
+  left: 0;
 }
-.nav-button {
+.nav__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 8px;
   gap: 10px;
   width: 40px;
   height: 40px;
+}
+.nav__button--create {
+  background: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
+  border-radius: 32px;
 }
