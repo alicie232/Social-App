@@ -1,5 +1,7 @@
 :root {
   --nav-bg: #000000;
+  --post-color: #ecebed;
+  --post-time-color: #727477;
 }
 
 body {

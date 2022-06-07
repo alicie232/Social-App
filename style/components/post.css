@@ -1,0 +1,74 @@
+.main__post {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr;
+
+  color: var(--post-color);
+
+  /* font-weight: 400;
+  font-size: 16px; */
+  /* line-height: 150%; */
+  width: 375px;
+  height: 174px;
+}
+
+.main__post--profil-photo {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 32px;
+}
+
+.main__post--username {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.main__post--time {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  height: 16px;
+  color: var(--post-time-color);
+}
+
+.main__post--more {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.main__post--content {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.main__post--icons-social {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  display: flex;
+  justify-content: space-around;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: var(--post-color);
+}
+
+.main__post--bookmark {
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
